@@ -17,7 +17,7 @@ public class LaunchingChrome_Edge_browsers {
         Playwright playwright = Playwright.create();
      //   Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
 
-        Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setExecutablePath(Paths.get("/usr/bin/google-chrome")));
+        Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setExecutablePath(Paths.get("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe")));
         BrowserContext browserContext = browser.newContext(new Browser.NewContextOptions().setViewportSize((int)width, (int)height));
         Page page = browserContext.newPage();
         page.navigate("http://way2automation.com");
