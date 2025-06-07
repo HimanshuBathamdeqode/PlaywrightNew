@@ -1,7 +1,6 @@
-package PlaywrightSessions;
+package TestCases.PlaywrightSessions;
 
 import com.microsoft.playwright.*;
-import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.WaitUntilState;
 
 public class HandlingFrames {

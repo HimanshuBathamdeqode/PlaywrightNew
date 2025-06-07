@@ -1,9 +1,7 @@
-package PlaywrightSessions;
+package TestCases.PlaywrightSessions;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.SelectOption;
-
-import java.util.List;
 
 public class TestHandlingDropdowns {
     public static void main(String[] args) {

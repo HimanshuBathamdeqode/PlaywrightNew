@@ -1,9 +1,8 @@
-package PlaywrightSessions;
+package TestCases.PlaywrightSessions;
 
 import com.microsoft.playwright.*;
 
 import java.awt.*;
-import java.nio.file.Paths;
 
 public class LaunchingChrome_Edge_Without_Path {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package PlaywrightSessions;
+package TestCases.PlaywrightSessions;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;

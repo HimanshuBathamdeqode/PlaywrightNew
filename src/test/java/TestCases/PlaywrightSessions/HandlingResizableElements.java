@@ -1,13 +1,6 @@
-package PlaywrightSessions;
-import com.microsoft.playwright.Browser;
+package TestCases.PlaywrightSessions;
 
-import com.microsoft.playwright.BrowserType;
-
-import com.microsoft.playwright.Locator;
-
-import com.microsoft.playwright.Page;
-
-import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.*;
 
 
 
